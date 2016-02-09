@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# Inherit from oppo-common
+$(call inherit-product, device/oppo/common/common.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay

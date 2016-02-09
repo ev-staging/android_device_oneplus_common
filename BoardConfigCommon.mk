@@ -13,6 +13,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Inherit from oppo-common
+-include device/oppo/common/BoardConfigCommon.mk
+
 PLATFORM_PATH := device/oneplus/common
 
 # Includes
